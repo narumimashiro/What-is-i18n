@@ -1,15 +1,14 @@
-import i18n from "i18next"
-import { initReactI18next } from "react-i18next"
-
+const i18n = require('i18next')
+const { initReactI18next } = require('react-i18next')
 // 言語jsonファイルのimport
-import t_en from './en.json'
-import t_ja from './ja.json'
-import t_zh from './zh.json'
-import t_es from './es.json'
-import t_de from './de.json'
-import t_it from './it.json'
-import t_fr from './fr.json'
-import t_ru from './ru.json'
+const t_en = require('./i18n/en.json')
+const t_ja = require('./i18n/ja.json')
+const t_zh = require('./i18n/zh.json')
+const t_es = require('./i18n/es.json')
+const t_de = require('./i18n/de.json')
+const t_it = require('./i18n/it.json')
+const t_fr = require('./i18n/fr.json')
+const t_ru = require('./i18n/ru.json')
 
 const resources = {
   'ja': {
@@ -47,5 +46,3 @@ i18n
       escapeValue: false
     }
   })
-
-  export default i18n

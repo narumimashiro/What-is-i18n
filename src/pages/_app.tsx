@@ -2,7 +2,8 @@ import type { AppProps } from 'next/app'
 import { RecoilRoot } from 'recoil'
 
 // i18n
-import "./i18n/configs"
+import { appWithTranslation } from 'next-i18next'
+import '../../locales/i18n'
 
 import '@/styles/globals.sass'
 
@@ -11,4 +12,4 @@ const I18nApp = ({ Component, pageProps }: AppProps) => (
     <Component {...pageProps} />
   </RecoilRoot>
 )
-export default I18nApp
+export default appWithTranslation(I18nApp)
