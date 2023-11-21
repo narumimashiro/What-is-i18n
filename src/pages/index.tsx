@@ -10,22 +10,30 @@ import styles from '@/styles/components/Home.module.sass'
 import Box from '@mui/material/Box'
 import Modal from '@mui/material/Modal'
 import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
 
 const Home = () => {
 
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const [open, setOpen] = useState(true)
   const router = useRouter()
-  const locale = router.query.locale || 'ja'
+  const firstPage = `${router.pathname}/ja-jp/i18n`
 
   useEffect(() => {
-    if (locale && typeof (locale) === 'string') {
-      i18n.changeLanguage(locale)
-    }
-  }, [locale, i18n])
+    router.prefetch(firstPage)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
-  const handlerClose = () => {
+  const contextStyle = {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    padding: '25px'
+  }
+
+  const handlerModal = () => {
     setOpen(false)
+    router.push(firstPage)
   }
 
   return (
@@ -39,7 +47,7 @@ const Home = () => {
       <div>
         <Modal
           open={open}
-          onClose={handlerClose}
+          onClose={handlerModal}
         >
           <Box
             className={styles.modal}
@@ -51,10 +59,19 @@ const Home = () => {
               {t('top.FISRTLY')}
             </Typography>
             <Typography
+              sx={{...contextStyle}}
               variant='h6'
             >
-              {t('top.FISRTLY')}
+              <span className={styles.context}>
+                {t('top.DESCRIPTION')}
+              </span>
             </Typography>
+            <Button
+              variant='text'
+              onClick={handlerModal}
+            >
+              {t('common.OK')}
+            </Button>
           </Box>
         </Modal>
       </div>

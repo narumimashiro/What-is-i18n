@@ -1,6 +1,10 @@
 {
+  "common": {
+    "OK": "Да"
+  },
   "top": {
-    "FISRTLY": "Введение"
+    "FISRTLY": "Введение",
+    "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
     "PAGE_TITLE": "О международной локализации"
