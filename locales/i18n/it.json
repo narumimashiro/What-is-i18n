@@ -15,6 +15,18 @@
     "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
-    "PAGE_TITLE": "Riguardo all'i18n"
+    "PAGE_TITLE": "Riguardo alla globalizzazione",
+    "sec_i18n": "Riguardo all'internazionalizzazione",
+    "sec_i18n_context": "I18n (Internazionalizzazione) è un termine collettivo per metodi e strumenti utilizzati nello sviluppo web e nello sviluppo di applicazioni per adattarsi a diverse regioni e culture.\n'I18n' è un'abbreviazione di 'internationalization', e il numero 18 indica il numero di lettere tra 'i' e 'n'.",
+    "sec_l10n": "Riguardo a Localizzazione",
+    "sec_l10n_context": "'l10n' sta per 'localization' (localizzazione), un'abbreviazione di 'internationalization' (i18n).\nLa localizzazione si riferisce al processo di adattamento di software o siti web internazionalizzati a regioni o lingue specifiche.",
+    "sec_message": "Bundle di messaggi",
+    "sec_message_context": "Un bundle di messaggi è un meccanismo per gestire messaggi di testo ed etichette all'interno di un'applicazione.\nQuesto facilita il passaggio a diverse lingue.",
+    "sec_multilang": "Supporto multilingue",
+    "sec_multilang_context": "Il supporto multilingue si riferisce alla progettazione di applicazioni web o software in grado di supportare più lingue.\nCiò consente agli utenti di visualizzare i contenuti in lingue diverse.",
+    "sec_langcode": "Codice lingua",
+    "sec_langcode_context": "Ogni lingua ha un codice standard.\nAd esempio, il giapponese è 'ja', l'inglese è 'en' e così via.\nQuesti codici vengono utilizzati quando si specifica una lingua particolare in i18n.",
+    "sec_wordcode": "Codice carattere",
+    "sec_wordcode_context": "Un codice carattere è un insieme di regole per codificare dati di testo.\nPer supportare lingue e set di caratteri diversi, è necessario scegliere il codice carattere appropriato."
   }
 }

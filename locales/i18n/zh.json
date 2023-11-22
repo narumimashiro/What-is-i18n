@@ -15,6 +15,18 @@
     "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
-    "PAGE_TITLE": "关于国际化"
+    "PAGE_TITLE": "关于全球化",
+    "sec_i18n": "关于国际化",
+    "sec_i18n_context": "I18n（国际化）是指在Web开发和应用程序开发中用于适应不同地区和文化的方法和工具的总称。\n 'I18n'是'国际化'的缩写、数字18表示'i'和'n'之间的字母数。",
+    "sec_l10n": "关于本地化",
+    "sec_l10n_context": "'l10n' 是 'localization'（本地化）的缩写，是 'internationalization'（国际化）的一部分。\n本地化是指调整国际化软件或网站以适应特定地区或语言的过程。",
+    "sec_message": "消息捆绑",
+    "sec_message_context": "消息捆绑是管理应用程序内文本消息和标签的机制。\n这有助于轻松切换到不同的语言。",
+    "sec_multilang": "多语言支持",
+    "sec_multilang_context": "多语言支持是指设计 Web 应用程序或软件以支持多种语言的能力。\n这使用户可以以不同的语言查看内容。",
+    "sec_langcode": "语言代码",
+    "sec_langcode_context": "每种语言都有一个标准代码。\n例如，日语是 'ja'，英语是 'en'，等等。\n在 i18n 中指定特定语言时使用这些代码。",
+    "sec_wordcode": "字符编码",
+    "sec_wordcode_context": "字符编码是一组用于对文本数据进行编码的规则。\n为了支持不同的语言和字符集，需要选择适当的字符编码。"
   }
 }
