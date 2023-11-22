@@ -15,6 +15,18 @@
     "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
-    "PAGE_TITLE": "Über i18n"
+    "PAGE_TITLE": "Über die Globalisierung",
+    "sec_i18n": "Über die Internationalisierung",
+    "sec_i18n_context": "I18n (Internationalisierung) ist ein Sammelbegriff für Methoden und Werkzeuge, die in der Webentwicklung und Anwendungsentwicklung verwendet werden, um sich an verschiedene Regionen und Kulturen anzupassen.\n'I18n' ist eine Abkürzung für 'internationalization', und die Zahl 18 zeigt die Anzahl der Buchstaben zwischen 'i' und 'n' an.",
+    "sec_l10n": "Über Lokalisierung",
+    "sec_l10n_context": "'l10n' steht für 'Localization' (Lokalisierung), eine Abkürzung für 'Internationalization' (i18n).\nLokalisierung bezieht sich auf den Prozess der Anpassung internationalisierter Software oder Websites an bestimmte Regionen oder Sprachen.",
+    "sec_message": "Nachrichtenpaket",
+    "sec_message_context": "Ein Nachrichtenpaket ist ein Mechanismus zur Verwaltung von Textnachrichten und Etiketten innerhalb einer Anwendung.\nDies erleichtert das einfache Umschalten auf verschiedene Sprachen.",
+    "sec_multilang": "Mehrsprachige Unterstützung",
+    "sec_multilang_context": "Mehrsprachige Unterstützung bezieht sich auf die Gestaltung von Webanwendungen oder Software, um die Unterstützung mehrerer Sprachen zu ermöglichen.\nDies ermöglicht es Benutzern, Inhalte in verschiedenen Sprachen anzuzeigen.",
+    "sec_langcode": "Sprachcode",
+    "sec_langcode_context": "Jede Sprache hat einen Standardcode.\nZum Beispiel ist Japanisch 'ja', Englisch ist 'en' usw.\nDiese Codes werden verwendet, wenn in i18n eine bestimmte Sprache angegeben wird.",
+    "sec_wordcode": "Zeichencode",
+    "sec_wordcode_context": "Ein Zeichencode ist eine Reihe von Regeln zum Codieren von Textdaten.\nUm verschiedene Sprachen und Zeichensätze zu unterstützen, ist es notwendig, den geeigneten Zeichencode zu wählen."
   }
 }

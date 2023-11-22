@@ -15,6 +15,18 @@
     "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
-    "PAGE_TITLE": "Acerca de i18n"
+    "PAGE_TITLE": "Sobre la globalización",
+    "sec_i18n": "Acerca de la internacionalización",
+    "sec_i18n_context": "I18n (Internacionalización) es un término colectivo para referirse a métodos y herramientas utilizados en el desarrollo web y desarrollo de aplicaciones para adaptarse a diferentes regiones y culturas.\n'I18n' es una abreviatura de 'internationalization', y el número 18 indica la cantidad de letras entre 'i' y 'n'.",
+    "sec_l10n": "Acerca de Localización",
+    "sec_l10n_context": "'l10n' significa 'localization' (localización), una abreviatura de 'internationalization' (i18n).\nLa localización se refiere al proceso de ajustar software o sitios web internacionalizados a regiones o idiomas específicos.",
+    "sec_message": "Conjunto de mensajes",
+    "sec_message_context": "Un conjunto de mensajes es un mecanismo para gestionar mensajes de texto y etiquetas dentro de una aplicación.\nEsto facilita el cambio fácil a diferentes idiomas.",
+    "sec_multilang": "Soporte multilingüe",
+    "sec_multilang_context": "El soporte multilingüe se refiere al diseño de aplicaciones web o software para ser capaces de admitir varios idiomas.\nEsto permite a los usuarios ver contenido en diferentes idiomas.",
+    "sec_langcode": "Código de idioma",
+    "sec_langcode_context": "Cada idioma tiene un código estándar.\nPor ejemplo, el japonés es 'ja', el inglés es 'en', etc.\nEstos códigos se utilizan al especificar un idioma en particular en i18n.",
+    "sec_wordcode": "Código de caracteres",
+    "sec_wordcode_context": "Un código de caracteres es un conjunto de reglas para codificar datos de texto.\nPara admitir diferentes idiomas y juegos de caracteres, es necesario elegir el código de caracteres apropiado."
   }
 }

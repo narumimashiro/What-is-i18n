@@ -15,6 +15,18 @@
     "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
-    "PAGE_TITLE": "À propos de l'i18n"
+    "PAGE_TITLE": "À propos de la mondialisation",
+    "sec_i18n": "À propos de l'internationalisation",
+    "sec_i18n_context": "I18n (Internationalization) est un terme générique désignant les méthodes et les outils utilisés dans le développement web et le développement d'applications pour s'adapter à différentes régions et cultures.\n'I18n' est l'abréviation de 'internationalization', et le chiffre 18 indique le nombre de lettres entre 'i' et 'n'.",
+    "sec_l10n": "À propos de la Localisation",
+    "sec_l10n_context": "'l10n' signifie 'localization' (localisation), une abréviation pour 'internationalization' (i18n).\nLa localisation fait référence au processus d'ajustement de logiciels ou de sites web internationalisés pour les adapter à des régions ou des langues spécifiques.",
+    "sec_message": "Regroupement de messages",
+    "sec_message_context": "Un regroupement de messages est un mécanisme de gestion des messages texte et des étiquettes au sein d'une application.\nCela facilite le passage à différentes langues.",
+    "sec_multilang": "Prise en charge multilingue",
+    "sec_multilang_context": "La prise en charge multilingue fait référence à la conception d'applications web ou de logiciels capable de prendre en charge plusieurs langues.\nCela permet aux utilisateurs de consulter le contenu dans différentes langues.",
+    "sec_langcode": "Code de langue",
+    "sec_langcode_context": "Chaque langue a un code standard.\nPar exemple, le japonais est 'ja', l'anglais est 'en', etc.\nCes codes sont utilisés lors de la spécification d'une langue particulière en i18n.",
+    "sec_wordcode": "Code de caractère",
+    "sec_wordcode_context": "Un code de caractère est un ensemble de règles pour encoder des données textuelles.\nPour prendre en charge différentes langues et ensembles de caractères, il est nécessaire de choisir le code de caractère approprié."
   }
 }

@@ -42,3 +42,16 @@ a
 @layer components
   .page-content
     @apply w-full min-h-screen pt-20
+
+.double-underline
+  position: relative
+  display: inline-block
+
+.double-underline::after
+  content: ''
+  position: absolute
+  left: 0
+  bottom: 0
+  width: 120%
+  height: 1px
+  border-bottom: 3px double #000

@@ -15,6 +15,18 @@
     "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
-    "PAGE_TITLE": "О международной локализации"
+    "PAGE_TITLE": "О глобализации",
+    "sec_i18n": "О международной локализации",
+    "sec_i18n_context": "I18n (Интернационализация) - это обобщающий термин для методов и инструментов, используемых в веб-разработке и разработке приложений для адаптации к различным регионам и культурам.\n'I18n' - это сокращение от 'internationalization', а число 18 указывает на количество букв между 'i' и 'n'.",
+    "sec_l10n": "О Локализация",
+    "sec_l10n_context": "'l10n' расшифровывается как 'localization' (локализация), сокращение от 'internationalization' (i18n).\nЛокализация относится к процессу настройки интернационализированного программного обеспечения или веб-сайтов под конкретные регионы или языки.",
+    "sec_message": "Набор сообщений",
+    "sec_message_context": "Набор сообщений - это механизм управления текстовыми сообщениями и ярлыками в приложении.\nЭто облегчает переключение на разные языки.",
+    "sec_multilang": "Многоязычная поддержка",
+    "sec_multilang_context": "Поддержка многих языков означает проектирование веб-приложений или программного обеспечения с возможностью поддержки нескольких языков.\nЭто позволяет пользователям просматривать контент на разных языках.",
+    "sec_langcode": "Код языка",
+    "sec_langcode_context": "У каждого языка есть стандартный код.\nНапример, японский - 'ja', английский - 'en' и так далее.\nЭти коды используются при указании конкретного языка в i18n.",
+    "sec_wordcode": "Код символа",
+    "sec_wordcode_context": "Код символа - это набор правил для кодирования текстовых данных.\nЧтобы поддерживать разные языки и наборы символов, необходимо выбрать подходящий код символа."
   }
 }

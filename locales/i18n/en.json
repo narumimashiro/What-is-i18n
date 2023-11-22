@@ -15,6 +15,18 @@
     "DESCRIPTION": "This site was created as a result of my journey transitioning\n from embedded C/C++ to the web industry.\n When I was first assigned a project that involved 'i18n,'\n I found myself asking, 'What is this?'\nWith the aim of adopting i18n and sharing my understanding of it, I created this website.\nPlease note that information about languages other than Japanese\nhas been translated by ChatGPT,\nso there is no guarantee that the generated text is always accurate.\nThank you for your understanding."
   },
   "i18n": {
-    "PAGE_TITLE": "About i18n"
+    "PAGE_TITLE": "About Globalization",
+    "sec_i18n": "About Internationalization",
+    "sec_i18n_context": "I18n (Internationalization) is a collective term for methods and tools used in web development and application development to adapt to different regions and cultures.\n'I18n' is an abbreviation for 'internationalization,' and the number 18 indicates the number of letters between 'i' and 'n.'",
+    "sec_l10n": "About Localization",
+    "sec_l10n_context": "'l10n' stands for 'localization,' an abbreviation for 'internationalization' (i18n).\nLocalization refers to the process of adjusting internationalized software or websites to specific regions or languages.",
+    "sec_message": "Message Bundle",
+    "sec_message_context": "A message bundle is a mechanism for managing text messages and labels within an application.\nThis facilitates easy switching to different languages.",
+    "sec_multilang": "Multilanguage Support",
+    "sec_multilang_context": "Multilanguage support refers to the design of web applications or software to be capable of supporting multiple languages.\nThis allows users to view content in different languages.",
+    "sec_langcode": "Language Code",
+    "sec_langcode_context": "Each language has a standard code.\nFor example, Japanese is 'ja,' English is 'en,' and so on.\nThese codes are used when specifying a particular language in i18n.",
+    "sec_wordcode": "Character Code",
+    "sec_wordcode_context": "A character code is a set of rules for encoding text data.\nTo support different languages and character sets, it is necessary to choose the appropriate character code."
   }
 }
