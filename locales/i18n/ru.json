@@ -1,6 +1,14 @@
 {
   "common": {
-    "OK": "Да"
+    "OK": "Да",
+    "ja": "Japanese",
+    "en": "English",
+    "de": "German",
+    "es": "Spanish",
+    "fr": "French",
+    "it": "Italian",
+    "zh": "Chinese",
+    "ru": "Russian"
   },
   "top": {
     "FISRTLY": "Введение",

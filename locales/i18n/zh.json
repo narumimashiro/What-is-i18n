@@ -1,6 +1,14 @@
 {
   "common": {
-    "OK": "是的"
+    "OK": "是的",
+    "ja": "Japanese",
+    "en": "English",
+    "de": "German",
+    "es": "Spanish",
+    "fr": "French",
+    "it": "Italian",
+    "zh": "Chinese",
+    "ru": "Russian"
   },
   "top": {
     "FISRTLY": "开始时",

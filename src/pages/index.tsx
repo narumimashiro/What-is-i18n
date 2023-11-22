@@ -17,7 +17,7 @@ const Home = () => {
   const { t } = useTranslation()
   const [open, setOpen] = useState(true)
   const router = useRouter()
-  const firstPage = `${router.pathname}/ja-jp/i18n`
+  const firstPage = `/ja-jp/i18n`
 
   useEffect(() => {
     router.prefetch(firstPage)
