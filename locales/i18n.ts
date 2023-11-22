@@ -30,7 +30,7 @@ const resources = {
     translation: t_it
   },
   'fr': {
-    transkation: t_fr
+    translation: t_fr
   },
   'ru': {
     translation: t_ru

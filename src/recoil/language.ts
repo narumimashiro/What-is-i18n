@@ -1,5 +1,19 @@
 import { atom, selector } from 'recoil'
 
+export const langList = [
+  { disp: 'ja', urlpath: 'ja-jp' },
+  { disp: 'en', urlpath: 'en-us' },
+  { disp: 'de', urlpath: 'de-ge' },
+  { disp: 'es', urlpath: 'es-sp' },
+  { disp: 'fr', urlpath: 'fr-re' },
+  { disp: 'it', urlpath: 'it-it' },
+  { disp: 'zh', urlpath: 'zh-cn' },
+  { disp: 'ru', urlpath: 'ru-fe' },
+] as {
+  disp: string,
+  urlpath: string
+}[]
+
 export const languageState = atom<string>({
   key: 'i18nLanguage',
   default: 'ja'
@@ -20,7 +34,7 @@ export const translate = selector({
       case 'en':
         set(languageState, 'en'); break
       case 'de-ge':
-      case 'dee':
+      case 'de':
         set(languageState, 'de'); break
       case 'es-sp':
       case 'es':
