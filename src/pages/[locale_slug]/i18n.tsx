@@ -3,9 +3,17 @@ import { useTranslation } from 'next-i18next'
 
 import styles from '@/styles/components/i18n.module.sass'
 
+import { useTheme } from '@/hooks/useTheme'
+
 const I18n = () => {
 
   const { t } = useTranslation()
+
+  const theme = useTheme()
+
+  const themeStyle = {
+    color: theme ? 'white' : 'black',
+  }
 
   return (
     <>
@@ -15,7 +23,7 @@ const I18n = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.main}>
+      <div className={styles.main} style={themeStyle}>
         <p className={styles['text-title']}>{t('i18n.PAGE_TITLE')}</p>
         <section className={styles['page-section']}>
           <p className={`double-underline ${styles['text-section-title']}`}>{t('i18n.sec_i18n')}</p>
